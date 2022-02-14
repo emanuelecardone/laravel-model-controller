@@ -1,6 +1,6 @@
 <section class="movies_wrapper w-100">
     <div class="container">
-        <div class="row row-cols-1">
+        <div class="row row-cols-1 g-5">
             @forelse($movies as $movie)
                 <div class="col">
                     <div class="movie_card_wrapper w-100 h-100">
